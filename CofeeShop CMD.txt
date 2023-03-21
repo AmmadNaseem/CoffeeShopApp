@@ -1,0 +1,57 @@
+1. npm install --save-dev  --unsafe-perm node-sass
+2.npm install -g @ionic/cli
+3.npm rebuild node-sass --force
+4.npm install --save-dev node-sass
+5.export FLASK_APP=api.py
+```
+
+To run the server, execute:
+
+```bash
+flask run --reload
+
+ALTERNATIVE===
+export FLASK_ENV=development
+export FLASK_APP=app.py
+flask run --port 5000
+
+1.fullstacknanodegreeaamad.us.autho.com [for auth zero].
+2.https://127.0.0.1:8080/login [for redirect the auth0 login]
+3.AUTH0 LINK: https://{{YOUR_DOMAIN}}/authorize?audience={{API_IDENTIFIER}}&response_type=token&client_id={{YOUR_CLIENT_ID}}&redirect_uri={{YOUR_CALLBACK_URI}} 
+4.AUTH0 AUTHORIZE LINK:
+   https://fullstacknanodegreeaamad.us.auth0.com/authorize?audience=image&response_type=token&client_id=3FfaQ8DhzW41YGPedLTK7A5JLGmfKd2k&redirect_uri=http://localhost:8080/login-results
+
+
+
+https://fullstacknanodegreeaamad.us.auth0.com/authorize?audience=dev&response_type=token&client_id=
+EZqynKrHOhCEzg3jy7taIeCxiz9v710i&redirect_uri=https://127.0.0.1:8100/tabs/user-page
+
+5. virtual envirnment:
+	a.pip install virtualenv
+      b.virtualenv folderName //one way of creating folder
+	c.python -m venv venv   //2nd way of creare venv:py -m venv venv
+	d.cd venv\Scripts\ $ source activate [diactivate]
+	e. py -m pip --version
+
+6.pip install -r requirements.txt
+7.export FLASK_APP=app.py 
+8.flask run --reload
+9.pip install python-jose
+11.https://fullstacknanodegreeaamad.us.auth0.com/u/login?state=hKFo2SB3UEVlVjMydTl4Z0lNZU1hVjctdTB4OFdXUTh0cHROSaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDBub1RGN0NweV9mN2EwSXFkTkwxWnBaS2NIQ1VzVEZPo2NpZNkgM0ZmYVE4RGh6VzQxWUdQZWRMVEs3QTVKTEdtZktkMms
+
+12.AUTH0_DOMAIN ='fullstacknanodegreeaamad.us.auth0.com'
+ALGORITHMS = ['RS256']
+API_AUDIENCE = 'image'
+
+/==============================FOR COFEESHOP ==========================
+export FLASK_ENV=development
+ export FLASK_APP=api.py  && flask run
+
+DOMAIN=https://fullstacknanodegreeaamad.us.auth0.com/
+audience=dev
+clientId=EZqynKrHOhCEzg3jy7taIeCxiz9v710i
+
+FOR RUNNING APP FROM ANY PAGE:
+# if __name__ =='__main__':
+#     app.run()
+
